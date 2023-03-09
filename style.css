@@ -1,0 +1,62 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    outline: none;
+} 
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.container-full {
+    color: white;
+    background-color: #23424A;
+    padding: 9.25em 0;
+
+}
+
+.content {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto; 
+}
+
+.content__text {
+    width: 50%;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: black;
+}
+
+p {
+    margin: 1em 0;
+
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.3125rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+button {
+    padding: .9em 2.3em;
+    margin: 1.8em 0 .6875em 0; 
+    
+    color: #072A2D;
+    background: #38CFD9;
+    
+    font-size: 1.3125em;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+
+    border: none;
+    border-radius: 2em;
+
+    cursor: pointer;
+}
+
+button:hover, button:focus {
+    opacity: .7;
+}
